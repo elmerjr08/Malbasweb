@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malbas Elmer web</title>
+    <style>
+        body{
+            background-image:url("../assets/8.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 300%;
+            
+        }
+        #button1{
+            border-radius: 50px;
+            box-shadow:black;
+            width: 15%;
+            background-color: transparent;
+            text-shadow: 0px 0px 10px blue,
+                         0px 0px 20px blue,
+                         0px 0px 30px blue,
+                         0px 0px 40px blue,
+                         0px 0px 50px blue,
+                         0px 0px 60px blue,
+                         0px 0px 70px blue;
+           
+        }
+        #button1:hover{
+            background-color:white;
+            
+        }
+        #button2{
+            border-radius: 50px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 15%;
+            background-color: transparent;
+            text-shadow: 0px 0px 10px blue,
+                         0px 0px 20px blue,
+                         0px 0px 30px blue,
+                         0px 0px 40px blue,
+                         0px 0px 50px blue,
+                         0px 0px 60px blue,
+                         0px 0px 70px blue;
+        }
+        #button2:hover{
+            background-color: white;
+        }
+        #button3{
+            border-radius: 50px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 15%;
+            background-color: transparent; 
+            text-shadow: 0px 0px 10px blue,
+                         0px 0px 20px blue,
+                         0px 0px 30px blue,
+                         0px 0px 40px blue,
+                         0px 0px 50px blue,
+                         0px 0px 60px blue,
+                         0px 0px 70px blue;
+        }
+        #button3:hover{
+            background-color:white;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            margin-right: 20%;
+        }
+        #img1{
+            margin-left: 40%;
+            float: left;
+        }
+        #txt{
+            float: left;
+            font-size: 150%;
+            color: blue;
+            text-shadow: 0px 0px 10px blue,
+                         0px 0px 20px blue,
+                         0px 0px 30px blue,
+                         0px 0px 40px blue,
+                         0px 0px 50px blue,
+                         0px 0px 60px blue,
+                         0px 0px 70px blue;
+        }
+        #h1{
+            text-align: center;
+            text-shadow: 0px 0px 10px blue,
+                         0px 0px 20px blue,
+                         0px 0px 30px blue,
+                         0px 0px 40px blue,
+                         0px 0px 50px blue,
+                         0px 0px 60px blue,
+                         0px 0px 70px blue;
+            margin-right:15%;
+        }
+        #tL{
+            width: 50%;
+            float: left;
+           
+        }
+        #tR{
+            width: 50%;
+            float: center;
+        }
+       
+
+        #img2{
+               align-content: center;
+               clip-path: circle();
+               margin-left: 10%;
+        }
+        #Gender{
+            color: blue;
+        }
+        h{
+            margin-left: 12%;
+        }
+        #A{
+            margin-right:14%;
+        }
+        #B{
+            margin-right:7%;
+        }
+        h1{
+            color: blue;
+            margin-left: 15%;
+           
+        }
+        #C{
+            margin-left: 20%;
+            color: blue;
+            text-align: justify;
+        }
+        nav {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        ul {
+           background:black;
+           list-style: none;
+           margin: 0;
+           padding-left: 0;
+        }
+        li {
+           color:blue;
+           background:transparent;
+           display: block;
+           float: right;
+            padding: 1rem;
+           position: relative;
+           text-decoration: none;
+          transition-duration: 0.5s;
+          font-weight: bold;
+         }
+         li:hover {
+         background:dodgerblue;
+         cursor: pointer;
+         }
+         ul li ul {
+              background: black;
+              visibility: hidden;
+              opacity: 0;
+              
+              position: absolute;
+              transition: all 0.5s ease;
+              margin-top: 1rem;
+              margin-right: inherit;
+              display: none;
+              align-content: left;
+        }
+        ul li:hover > ul,
+        ul li ul:hover {
+          visibility: visible;
+           opacity: 1;
+          display: block;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <center>
+            <h1 id="h1"><font size="5" color="blue">Me,Myself, and I</font></h1>
+            <button size="5" color="dodgerblue" id="button1">
+                <a><b><font size="5" color="blue">Home Page</font></b></a>
+            </button >
+            <button id="button2">
+                <a href="../src5/Gallery.html"><b><font size="5" color="blue">Gallery</font></b></a>
+            </button>
+            <button id="button3">  
+                <a href="../src5/Fav.html" ><b><font size="5" color="blue">Favorites</font></b></a>
+            </button>
+    </center>
+    <br><br>
+    <center>
+    <div id="img1">
+        <img src="../assets/4.jpg" width="70px" height="70px">
+    </div>
+    <br>
+    <div id="txt"> 
+        <h><b>PROFILE</b></h>
+    </div>
+    <br><br><br><br>
+    <table id="tL" >
+        <tr>
+            <td align="center"><img src="../assets/3.png" width="400px" height="400px" id="img2"></td>
+        </tr>
+        <nav role="navigation">
+            <ul>
+                <li> PERSONAL DATA
+                    <ul>
+                        <li>Sex : Male&emsp;&emsp;</li>
+                        <li>&nbsp;Civil Status:&emsp;&emsp;In a relationship</li>
+                        <li>Date of Birth : February 22,2002</li>
+                        <li>Place of Birth :  Bacoor, Cavite</li>
+                        <li>Height : 5'3&emsp;&emsp;</li>
+                        <li>Weight : 45&emsp;&emsp;</li>
+                        <li>Religion:Catholic</li>
+                    </ul>
+                </li>
+                <li>EDUCATIONAL BACKGROUND
+                    <ul>
+                        <li>&nbsp;Senior Highschool : &emsp;&emsp;Asia Source College</li>
+                        <li>&nbsp;&emsp;Junior Highschool :&emsp;&emsp;&emsp; Dr. Arcadio Santos National High School</li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;Primary :&emsp;&emsp;&emsp;&emsp;&emsp; Bagong Tanyag Elementary School</li>
+                    </ul>
+                </li>
+                <li>TECHNICAL SKILLS
+                    <ul>
+                        <li>Microsoft office works</li>
+                        <li>Java Programming</li>
+                        <li>Website Developer</li>
+                    </ul>
+                </li>
+                <li>OTHER SKILLS
+                    <ul class="dd">
+                        <li>Excellent in time management skills</li> 
+                        <li>Knows how to get along</li>
+                        <li>Extremely Organized</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+    </table>
+    <br> <br> <br> <br><br> <br> <br> <br>
+   <table id="tR" >
+        <tr>
+            <td><h1>ELMER MALBAS JR.</h1></td>
+        </tr>
+        <tr>
+            <td><h id="C">"Coding is other type of Magic"</h></td>
+        </tr>
+    </table>
+        
+    </center>
+</body>
+</html>
